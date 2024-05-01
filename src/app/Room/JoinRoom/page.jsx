@@ -3,7 +3,6 @@
 import { JoinRoom } from "./joinroom";
 
 export  default  function page() {
-  const router = useRouter()
   const styleFont = {
     fontSize: 50,
     fontWeight: "bold",
