@@ -4,15 +4,21 @@ export function Navbar() {
   return (
     <div className="navbar bg-slate-100 text-neutral-content scroll-px-0.5 scroll-my-1.5 ">
       <div className="flex-1">
-        <Link href={"/Home"}>
-          <Image
-            src="/kmutnb_Logo.png"
-            width={50}
-            height={50}
-            alt="kmutnb index Logo"
-          />
-        </Link> &nbsp;
-        <h2 className="text-orange-600 font-bold"> Liunx Lab</h2>
+        <button className="btn btn-square btn-ghost">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            className="inline-block w-5 h-5 stroke-current"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
       </div>
       <div className="flex-none">
         <div className="dropdown dropdown-end">
